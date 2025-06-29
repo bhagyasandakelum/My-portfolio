@@ -1,18 +1,93 @@
-*{
-    background-color: black;
-    padding: 20px;
-}
-
-.home{
-    display: flex;
+body {
+    margin: 0;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    color: white;
+    background-color: #f4f4f4;
 }
 
-.btn1{
-    background: white;
-    color: black;
-    padding: 10px 20px;
-    cursor: pointer;
-    
+.cv {
+    display: flex;
+    max-width: 1000px;
+    margin: 40px auto;
+    background-color: #fff;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.sidebar {
+    width: 30%;
+    background-color: #1d2f38;
+    color: white;
+    padding: 30px 20px;
+    box-sizing: border-box;
+}
+
+.profile-img {
+    width: 100%;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+
+.sidebar h3 {
+    margin-top: 30px;
+    font-size: 1.1em;
+    border-bottom: 1px solid #ccc;
+    padding-bottom: 5px;
+}
+
+.sidebar p, .sidebar a {
+    font-size: 0.9em;
+    color: #d6d6d6;
+    margin: 10px 0;
+    text-decoration: none;
+    word-wrap: break-word;
+}
+
+.skills ul {
+    padding-left: 20px;
+}
+
+.skills li {
+    margin-bottom: 5px;
+    font-size: 0.9em;
+}
+
+.content {
+    width: 70%;
+    padding: 30px 40px;
+    box-sizing: border-box;
+}
+
+.name {
+    color: #1d2f38;
+    font-size: 2em;
+    margin-bottom: 10px;
+}
+
+.content h2 {
+    color: #1d2f38;
+    font-size: 1.2em;
+    margin-top: 30px;
+    border-bottom: 1px solid #ccc;
+    padding-bottom: 5px;
+}
+
+.content p, .content li {
+    font-size: 0.95em;
+    line-height: 1.5;
+}
+
+.job {
+    margin-bottom: 20px;
+}
+
+.date {
+    float: right;
+    color: #444;
+    font-size: 0.9em;
+}
+
+ul {
+    margin-top: 5px;
+    padding-left: 20px;
 }
